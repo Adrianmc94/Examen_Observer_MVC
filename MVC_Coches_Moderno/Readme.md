@@ -8,4 +8,4 @@ En el Model inicializamos un nuevo observer llamado observerGasolina y se lo añ
 
 ## Comprobación
 Para comprobar si cuando la gasolina es menor a 10 simplemente le damos a avanzar al coche los metros que queramos y cuando gaste tanta gasolina que llegue a menos de 10 litros nos avisará y nos mandrá el mensaje que definimos en el ObserverGasolina 
-( mas rapido podemos decir en la clase Coche que el coche inicie con menos de 10 litro y si le damos a que avance también nos lo mostrará) [Observer.png](../../../Desktop/Observer.png)
+( mas rapido podemos decir en la clase Coche que el coche inicie con menos de 10 litro y si le damos a que avance también nos lo mostrará) ![Observer](https://github.com/user-attachments/assets/71804d1f-a094-4a62-80cb-60b9f400f332)
