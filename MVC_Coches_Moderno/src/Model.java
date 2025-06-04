@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 
 public class Model {
+
+    static Observer observerGasolina = new ObserverGasolina();
+
     private static ArrayList<Coche> parking = new ArrayList<>();
 
 
@@ -45,6 +48,7 @@ public class Model {
     public static void avanzarCoche(String matricula3, int metros) {
         Coche c = buscarCoche(matricula3);
         c.avanzar(metros);
+        observerGasolina.update(c);
 
     }
 }
