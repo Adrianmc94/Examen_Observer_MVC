@@ -74,12 +74,12 @@ public class View {
                 default:
                     System.out.println("Opción no válida.");
                     break;
-
             }
 
         } while (opcion != 0);
 
         sc.close();
     }
+
 
 }
